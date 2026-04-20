@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Docks &amp; Lifts | Sportsman’s HQ</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Public+Sans:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#004b00",
+              secondary: "#934b19",
+              background: "#fff8f4",
+              "on-background": "#261907",
+              "surface-container-low": "#fff1e4",
+              "surface-container-high": "#fee4c7",
+              "surface-variant": "#f8dec1",
+              "outline-variant": "#bfcab7",
+              "on-surface-variant": "#404a3b",
+            },
+            fontFamily: {
+              headline: ["Newsreader", "serif"],
+              body: ["Public Sans", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body { font-family: "Public Sans", sans-serif; }
+      .font-serif { font-family: "Newsreader", serif; }
+    </style>
+  </head>
+  <body class="bg-background text-on-background antialiased">
+    <header class="fixed top-0 w-full z-50 bg-background/90 backdrop-blur-md shadow-sm">
+      <nav class="max-w-screen-2xl mx-auto px-6 md:px-8 py-4 flex items-center justify-between gap-6">
+        <a class="font-serif italic text-2xl font-bold text-primary" href="../index.html">Sportsman’s HQ</a>
+        <div class="hidden md:flex items-center gap-6 text-sm font-medium text-on-surface-variant">
+          <a class="hover:text-secondary" href="../about_us/code.html">About</a>
+          <a class="hover:text-secondary" href="../fishing/code.html">Fishing</a>
+          <a class="hover:text-secondary" href="../hunting/code.html">Hunting</a>
+          <a class="hover:text-secondary" href="../bar/code.html">Bar</a>
+          <a class="hover:text-secondary" href="../camping/code.html">Camping</a>
+          <a class="hover:text-secondary" href="../apparel/code.html">Apparel</a>
+          <a class="text-primary font-bold border-b-2 border-primary pb-1" href="../docks_lifts/code.html">Docks &amp; Lifts</a>
+          <a class="hover:text-secondary" href="../testimonials/code.html">Testimonials</a>
+          <a class="hover:text-secondary" href="../contact_directions/code.html">Contact</a>
+          <a class="font-semibold text-primary hover:text-secondary" href="tel:+17154662171">(715) 466-2171</a>
+        </div>
+        <div class="md:hidden flex items-center gap-4 text-sm">
+          <a class="font-semibold text-primary" href="../contact_directions/code.html">Contact</a>
+          <a class="font-semibold text-primary" href="tel:+17154662171">Call</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="pt-24">
+      <section class="max-w-screen-2xl mx-auto px-6 md:px-8 py-10 md:py-16">
+        <div class="grid gap-10 lg:grid-cols-12 items-center">
+          <div class="lg:col-span-7 space-y-6">
+            <p class="text-xs uppercase tracking-[0.35em] text-secondary font-semibold">Docks &amp; Lifts</p>
+            <h1 class="font-serif text-5xl md:text-6xl font-bold leading-tight">Straightforward dock and lift help.</h1>
+            <p class="text-lg text-on-surface-variant leading-relaxed max-w-2xl">
+              Sportsman’s Headquarters is an authorized dealer of Pier Pleasure and Porta-Docks products and carries DockRite waterfront systems.
+              We help you choose a layout based on shoreline, water depth, and watercraft type.
+            </p>
+            <div class="flex flex-wrap gap-3">
+              <a class="px-6 py-3 rounded-md bg-primary text-white font-semibold hover:opacity-95" href="../contact_directions/code.html">Contact Us</a>
+              <a class="px-6 py-3 rounded-md bg-surface-container-high text-on-background font-semibold hover:bg-surface-variant" href="../testimonials/code.html">Reviews</a>
+            </div>
+          </div>
+          <div class="lg:col-span-5">
+            <div class="rounded-3xl overflow-hidden border border-outline-variant bg-white shadow-sm">
+              <img
+                class="w-full h-[280px] md:h-[360px] object-cover"
+                alt="Dock on a lake"
+                src="../assets/photos/link3.jpg"
+              />
+              <div class="p-6 bg-surface-container-low">
+                <p class="text-sm text-on-surface-variant">
+                  Bring shoreline measurements and photos if you have them. It helps us recommend a layout faster.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="max-w-screen-2xl mx-auto px-6 md:px-8 pb-16">
+        <div class="grid gap-6 md:grid-cols-2">
+          <div class="rounded-2xl border border-outline-variant bg-white p-6">
+            <h2 class="font-serif text-2xl font-bold">Products &amp; Options</h2>
+            <ul class="mt-4 text-sm text-on-surface-variant list-disc list-inside space-y-1">
+              <li>Piers</li>
+              <li>Roll-out docks</li>
+              <li>Sectional docks</li>
+              <li>Roll-in docks</li>
+              <li>Floating docks</li>
+              <li>Multi-dock setups</li>
+              <li>Post docks</li>
+              <li>Accessories</li>
+              <li>Boat lifts</li>
+              <li>Pontoon lifts</li>
+              <li>Personal watercraft lifts (PWC lifts)</li>
+            </ul>
+          </div>
+          <div class="rounded-2xl border border-outline-variant bg-white p-6">
+            <h2 class="font-serif text-2xl font-bold">Dealer Services</h2>
+            <ul class="mt-4 text-sm text-on-surface-variant list-disc list-inside space-y-1">
+              <li>Pier Pleasure dealer support</li>
+              <li>Porta-Docks dealer support</li>
+              <li>DockRite product guidance</li>
+              <li>Layout planning for residential shorelines</li>
+              <li>Scheduling for install, seasonal removal, and service</li>
+            </ul>
+            <p class="mt-4 text-sm text-on-surface-variant">
+              Bring shoreline photos and measurements if available. That lets us match dock sections and lift style more accurately.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-[#efd6b9] mt-10 py-10">
+      <div class="max-w-screen-2xl mx-auto px-6 md:px-8 text-sm text-[#404a3b] flex flex-col md:flex-row gap-3 md:items-center md:justify-between">
+        <p>&copy; 2026 Sportsman's HQ, 1010 W Hokah St, Minong, WI 54859</p>
+        <div class="flex flex-wrap gap-4">
+          <a class="font-semibold text-[#004b00] hover:text-[#934b19]" href="tel:+17154662171">(715) 466-2171</a>
+          <span>Hours: Mon-Fri 8:00 AM - 8:00 PM, Sat 9:00 AM - 6:00 PM, Sun Closed</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
